@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <title>Frontend Mentor | Recipe page</title>
+</head>
+<body>
+  <main class="recipePg__main">
+    <div class="recipePg__cont">
+        <section class="recipePg__hero-section" aria-label="Recipe Hero Section">
+          <img src="assets/images/image-omelette.jpeg" class="recipePg__hero-img" alt="image of an omelette">
+        </section>
+      <div class="recipePg__inner">
+        <h1 class="recipePg__h1">Simple Omelette Recipe</h1>
+        <p class="recipePg__p recipePg__p--top">An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+          to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+        <section class="recipePg__prep" aria-label="recipe preparation time">
+          <div class="recipePg__prep-inner">
+            <p class="recipePg__prep-p">Preparation time</p>
+            <ul class="recipePg__prep-step-list">
+              <li class="recipePg__prep-step"><p class="recipePg__p recipePg__p--list"><span class="recipePg__p recipePg__p--bold">Total:</span> Approximately 10 minutes</p></li>
+              <li class="recipePg__prep-step"><p class="recipePg__p recipePg__p--list"><span class="recipePg__p recipePg__p--bold">Preparation:</span> 5 minutes</p></li>
+              <li class="recipePg__prep-step"><p class="recipePg__p recipePg__p--list"><span class="recipePg__p recipePg__p--bold">Cooking:</span> 5 minutes</p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="recipePg__ingredients" aria-label="recipe ingredients">
+          <h2 class="recipePg__h2">Ingredients</h2>
+          <ul class="recipePg__prep-step-list">
+            <li class="recipePg__prep-step"><p class="recipePg__p recipePg__p--list">2-3 large eggs</p></li>
+            <li class="recipePg__prep-step"><p class="recipePg__p recipePg__p--list">Salt, to taste</p></li>
+            <li class="recipePg__prep-step"><p class="recipePg__p recipePg__p--list">Pepper, to taste</p></li>
+            <li class="recipePg__prep-step"><p class="recipePg__p recipePg__p--list">1 tablespoon of butter or oil</p></li>
+            <li class="recipePg__prep-step"><p class="recipePg__p recipePg__p--list">Optional fillings: cheese, diced vegetables, cooked meats, herbs</p></li>
+          </ul>
+        </section>
+        <section class="recipePg__instructions" aria-label="cooking instructions">
+          <h2 class="recipePg__h2">Ingredients</h2>
+          <ol class="recipePg__prep-step-list">
+            <li class="recipePg__prep-step recipePg__ordered-list"><p class="recipePg__p recipePg__p--list"><span class="recipePg__p recipePg__p--bold">Beat the eggs:</span> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+              You can add a tablespoon of water or milk for a fluffier texture.</p></li>
+            <li class="recipePg__prep-step recipePg__ordered-list"><p class="recipePg__p recipePg__p--list"><span class="recipePg__p recipePg__p--bold">Heat the pan:</span> Place a non-stick frying pan over medium heat and add butter or oil.</p></li>
+            <li class="recipePg__prep-step recipePg__ordered-list"><p class="recipePg__p recipePg__p--list"><span class="recipePg__p recipePg__p--bold">Cook the omelette:</span> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface.</p></li>
+            <li class="recipePg__prep-step recipePg__ordered-list"><p class="recipePg__p recipePg__p--list"><span class="recipePg__p recipePg__p--bold">Add fillings(optional):</span> When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.</p></li>
+            <li class="recipePg__prep-step recipePg__ordered-list"><p class="recipePg__p recipePg__p--list"><span class="recipePg__p recipePg__p--bold">Fold and serve:</span> As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.</p></li>
+              <li class="recipePg__prep-step recipePg__ordered-list"><p class="recipePg__p recipePg__p--list"><span class="recipePg__p recipePg__p--bold">Enjoy:</span> Serve hot, with additional salt and pepper if needed.</p></li>
+          </ol>
+        </section>
+        <section class="recipePg__nutrition" aria-label="nutrition information">
+          <h2 class="recipePg__h2">Nutrition</h2>
+          <p class="recipePg__p">The table below shows nutritional values per serving without the additional fillings.</p>
+          <div class="recipePg__nutrition-table">
+            <div class="recipePg__table-row">
+              <p class="recipePg__p recipePg__p--padded">Calories</p>
+              <p class="recipePg__p recipePg__p--bold recipePg__p--nutrition">277kcal</p>
+            </div>
+            <div class="recipePg__table-row">
+              <p class="recipePg__p recipePg__p--padded">Carbs</p>
+              <p class="recipePg__p recipePg__p--bold recipePg__p--nutrition">0g</p>
+            </div>
+            <div class="recipePg__table-row">
+              <p class="recipePg__p recipePg__p--padded">Protein</p>
+              <p class="recipePg__p recipePg__p--bold recipePg__p--nutrition">20g</p>
+            </div>
+            <div class="recipePg__table-row">
+              <p class="recipePg__p recipePg__p--padded">Fat</p>
+              <p class="recipePg__p recipePg__p--bold recipePg__p--nutrition">22g</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
