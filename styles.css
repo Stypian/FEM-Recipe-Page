@@ -42,7 +42,7 @@
     .recipePg__main {
         width: 100%;
         height: 100%;
-        padding-bottom: 2rem;
+        padding-block: 6rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -202,6 +202,13 @@
         color: var(--brown800);
         margin-left: -3rem;
         margin-block: 0;
+    }
+
+    @media only screen and (max-width: 740px) {
+        .recipePg__main {
+            padding-top: 0;
+            padding-bottom: 2rem;
+        }
     }
 
     @media only screen and (max-width: 450px) {
